@@ -24,10 +24,7 @@ body {
   outline: none;
   visibility: visible;
   overflow-x: hidden;
-}
-
-.gallery-section{
-  background-image: url(../image/Frame\ 1.png);
+  background-image: url(../image/Frame\ 1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
