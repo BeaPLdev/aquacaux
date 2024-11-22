@@ -42,8 +42,8 @@ imgs.forEach((img, index) => {
         const closeBtn = document.createElement("button");
         const nextBtn = document.createElement("button");
         const prevButton = document.createElement("button");
-        prevButton.innerText = "Previous";
-        nextBtn.innerText = "Next";
+        prevButton.innerText = "Précédent";
+        nextBtn.innerText = "Suivant";
 
         nextBtn.classList.add("nextButton");
         prevButton.classList.add("prevButton");
@@ -67,7 +67,7 @@ imgs.forEach((img, index) => {
         });
 
         closeBtn.classList.add("closeBtn");
-        closeBtn.innerText = "Close";
+        closeBtn.innerText = "Fermer";
         closeBtn.addEventListener("click", function() {
             openDiv.remove();
         });

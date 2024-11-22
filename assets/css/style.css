@@ -79,12 +79,16 @@ a {
   display: flex;
   justify-content: center;
   width: fit-content;
-  max-width: 1320px;
+  max-width: 1220px;
   flex-wrap: wrap;
   margin: 25px auto;
   /* gap: 14px; */
 }
 
+.all{
+
+  text-wrap: balance;
+}
 
 p{
   width: 100%;
@@ -93,6 +97,7 @@ p{
   padding-inline: 1rem;
   font-size: 10px;
   text-wrap: balance;
+  margin-block: 0.5rem;
 }
 
 .gallery a {
@@ -178,7 +183,7 @@ p{
 
 /* resposive CSS Code */
 
-@media max-width: 1199px {
+@media (max-width: 1199px) {
   .section-padding {
     padding-top: 70px;
   }
